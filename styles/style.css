@@ -96,6 +96,7 @@ a {
 }
 
 .banner-container h1 {
+  text-align: center;
   color: #fff;
   font-size: 3.5rem;
   font-weight: 800;
@@ -339,15 +340,15 @@ a {
   position: relative;
 }
 
-.newsletter-container .right img scenery {
+.newsletter-container .right .scenery {
   width: 100%;
   height: 100%;
 }
 
 .newsletter-container .right .discount {
   position: absolute;
-  top: 52%;
-  right: -2%;
+  top: 47%;
+  right: 0%;
   width: 280px;
   height: 180px;
   transform: rotate(-10.628deg);
@@ -360,17 +361,19 @@ a {
 }
 
 .newsletter-container .right p {
+  text-align: center;
+  width: 250px;
   position: absolute;
-  top: 67%;
-  right: 14%;
+  top: 62%;
+  right: 4%;
   color: #fff;
   font-size: 20px;
 }
 
 .newsletter-container .right h3 {
   position: absolute;
-  top: 71%;
-  right: 1%;
+  top: 67%;
+  right: 3%;
   color: #fff;
   font-size: 28px;
   font-weight: 800;
