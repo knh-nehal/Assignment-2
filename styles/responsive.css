@@ -138,7 +138,40 @@
     gap: 0px;
   }
 
+  /* ratings section */
+  .ratings-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .ratings-header h3,
+  .ratings-header p {
+    max-width: 95%;
+  }
+
+  .ratings-header h3 {
+    font-size: 2rem;
+  }
+
+  .ratings-container .box {
+    width: 100%;
+  }
+
   /* newsletter section */
+
+  .newsletter-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .newsletter-section h3,
+  .newsletter-section p {
+    max-width: 95%;
+  }
+
+  .newsletter-section h3 {
+    font-size: 2rem;
+  }
 
   .newsletter-container {
     flex-direction: column;
@@ -181,11 +214,24 @@
 
   /* footer section */
 
+  .footer-section {
+    padding-top: 50px;
+  }
+
   .footer-container .common-para {
     max-width: 80%;
   }
 
+  .footer-container .icon-container * {
+    font-size: 32px;
+  }
+
   .footer-container hr {
     width: 90%;
+    margin: 30px auto;
+  }
+
+  .footer-container .credit {
+    padding-bottom: 40px;
   }
 }

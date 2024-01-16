@@ -181,7 +181,7 @@ b {
 .destination-container p {
   text-align: center;
   margin: 30px auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .destination-section {
@@ -273,7 +273,7 @@ b {
 .choose-us-container > p {
   text-align: center;
   margin: 30px auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 .choose-us-container .description-container {
@@ -319,13 +319,87 @@ b {
   font-weight: 800;
 }
 
+/* ratings section */
+
+.ratings-section {
+  margin-bottom: 100px;
+}
+
+.ratings-header > h3,
+.ratings-header > p {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 70%;
+}
+
+/* ratings box */
+
+.ratings-container {
+  margin: 90px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.ratings-container .man {
+  width: 60px;
+  height: 60px;
+}
+
+.ratings-container .box {
+  width: 82%;
+  max-width: 1140px;
+  margin: 0px auto;
+  flex-basis: 300px;
+  flex-grow: 1;
+  padding: 50px 30px;
+  border-radius: 16px;
+  box-shadow: 5px 5px 7px 6px rgba(0, 0, 0, 0.4);
+}
+
+.ratings-container .box-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.ratings-container .box-flex {
+  margin-bottom: 16px;
+}
+
+.ratings-container .common-para {
+  margin-top: 20px;
+  text-align: justify;
+}
+
+.ratings-container h4 {
+  font-size: 20px;
+}
+
+.ratings-container .bottom {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
 /* newsletter section */
 
 .newsletter-section {
   margin-bottom: 100px;
 }
 
+.newsletter-section > h3,
+.newsletter-section > p {
+  text-align: center;
+  margin: 30px auto;
+  max-width: 70%;
+}
+
 .newsletter-container {
+  margin: 50px auto;
   display: flex;
   gap: 24px;
 }
