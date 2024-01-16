@@ -113,6 +113,10 @@
       "band";
   }
 
+  .destination-container .img-grid h5 {
+    font-size: 20px;
+  }
+
   /* choose us section */
 
   .choose-us-section {

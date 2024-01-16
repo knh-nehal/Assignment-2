@@ -233,6 +233,36 @@ b {
     "bd bd bd bd bd band band band band band band band";
 }
 
+.destination-container .img-grid h5 {
+  color: #fff;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 800;
+}
+
+.destination-container .img-grid .img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5,
+.img-6,
+.img-7 {
+  position: relative;
+}
+
+.destination-container .img-grid .M,
+.I,
+.S,
+.N,
+.K,
+.B,
+.Ba {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 /* choose us section */
 
 .choose-us-section {
