@@ -172,4 +172,14 @@
     right: 18%;
     font-size: 18px;
   }
+
+  /* footer section */
+
+  .footer-container .common-para {
+    max-width: 80%;
+  }
+
+  .footer-container hr {
+    width: 90%;
+  }
 }
