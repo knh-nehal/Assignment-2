@@ -153,4 +153,23 @@
   .newsletter-container .left h4 {
     font-size: 2rem;
   }
+
+  .newsletter-container .right .discount {
+    width: 225px;
+    height: 140px;
+    top: 38%;
+    right: 0%;
+  }
+
+  .newsletter-container .right h3 {
+    font-size: 24px;
+    top: 63%;
+    right: 3%;
+  }
+
+  .newsletter-container .right p {
+    top: 55%;
+    right: 18%;
+    font-size: 18px;
+  }
 }
