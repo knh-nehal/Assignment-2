@@ -42,10 +42,12 @@
     padding-bottom: 35px;
   }
   .banner-container h1 {
+    text-align: center;
     font-size: 2.3rem;
   }
 
   .banner-container p {
+    text-align: center;
     max-width: 85%;
     font-size: 0.9rem;
   }
@@ -163,13 +165,13 @@
 
   .newsletter-container .right h3 {
     font-size: 24px;
-    top: 63%;
-    right: 3%;
+    top: 59%;
+    right: 2%;
   }
 
   .newsletter-container .right p {
-    top: 55%;
-    right: 18%;
+    top: 53%;
+    right: 16%;
     font-size: 18px;
   }
 
